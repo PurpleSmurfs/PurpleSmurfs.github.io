@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .shadow{
+            box-shadow: 2px 2px 2px #666;
+        }
+        .header {
+
+            width: 100%;
+            height: 100px;
+            background-color: brown;
+            color:white;
+            font-size: 40px;
+            line-height: 100px;
+            text-align: center;
+            font-weight: 700;
+            font-style: italic;
+        }
+        .flex {
+            display: flex;
+            flex-direction:row;
+        }
+        .left {
+            height: 1000px;
+            width: 15%;
+            background-color: rgb(251, 158, 158);
+            color:white;
+            font-size: 20px;
+            margin-right: 5px;
+            margin-top: 5px;
+
+        }
+        .left ul{
+            list-style: none;
+        }
+        .left ul li{
+            display: block;
+            padding-left: 6px;
+            padding-top: 10px;
+            line-height: 40px;
+
+            padding-bottom: 10px;
+            border-bottom: 1px #666 solid;
+        }
+        .left ul li:nth-child(5){
+            border-bottom: 0px;
+        }
+        .left ul li:hover{
+            background-color: #666;
+        }
+
+        .content {
+            width: 85%;
+            background-color: rgb(206, 184, 104);
+            height: 1000px;
+            color:rgb(4, 4, 4);
+            font-size: 20px;
+            margin-top: 5px;
+            margin-right: 5px;
+            text-indent: 2em;
+            padding: 5px;
+            
+
+        }
+        .footer {
+            position: relative;
+            width: 100%;
+            height: 150px;
+            background-color: pink;
+            margin-top: 5px;
+        }
+        .footer .info{
+            display: block;
+            position: relative;
+            width: 100%;
+            text-align: center;
+            padding-top: 30px;
+            
+            color:black;
+            
+        }
+        .footer .info a{
+            width: auto;
+            text-decoration: none;
+            color: black;
+        }
+        .top {
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            position:fixed;
+            right: 30px;
+            bottom: 30px;
+            background-color: aliceblue;
+            transition: 0.2s;
+            font-family: icomoon;
+            font-size: 30px;
+            line-height: 50px;
+            text-align: center;
+            
+        }
+        .top a{
+            text-decoration: none;
+            color: black;
+        }
+        .top:hover{
+            background-color: skyblue;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header shadow">408学习笔记</div>
+    <div class="center flex  shadow">
+        <div class="left shadow">
+            <ul>
+                <li>主页</li>
+                <li>关于</li>
+                <li>内容</li>
+                <li>联系</li>
+                <li>相关</li>
+            </ul>
+        </div>
+        <div class="content shadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dolorum corrupti sunt, laborum ipsa magnam officia neque ipsam facere sed voluptatibus quas consectetur perferendis at temporibus atque, eaque aspernatur quibusdam nulla velit doloremque numquam? Voluptatibus eius dolorem repudiandae veritatis aliquid dolor, consequuntur inventore dignissimos quisquam facilis velit itaque illum et, quidem suscipit vel voluptas enim fuga ratione commodi fugiat error eaque in recusandae? Libero, itaque. Corporis voluptatum asperiores quae illo deleniti, consequuntur quisquam repellat aut nulla modi illum, animi cupiditate, dolores inventore vitae tempora? Exercitationem architecto laborum odit corrupti aliquam recusandae vero deserunt similique error voluptatem, corporis, officia iste veritatis repellendus totam, optio aliquid quo quidem aspernatur minus fugit? Itaque ab quae rem, aliquid provident ex, possimus reiciendis neque blanditiis totam eius dolor, enim illo iusto deserunt excepturi saepe hic officia repudiandae voluptate odit qui necessitatibus nemo? Mollitia eos necessitatibus voluptate nulla nesciunt ratione beatae perspiciatis ipsum. Est voluptatum tempora excepturi aliquid laboriosam placeat repellendus illum, impedit quam. Ducimus obcaecati alias id cumque ad, officiis in. Maxime non aspernatur, commodi facere expedita ut maiores adipisci illo, nihil quos vitae sint ex nisi tempora fugit quo! Ipsa delectus sit soluta modi deleniti eveniet odit assumenda impedit repellendus fuga perspiciatis quae quos, blanditiis adipisci ex quo! Ullam vel dicta voluptas nostrum modi dolore, facilis laudantium excepturi minus atque iure fugit voluptatum ut fuga a? Beatae enim dolorum debitis dolore voluptatum doloribus inventore nemo maxime exercitationem tempore. Reiciendis nihil adipisci hic esse ullam, veniam numquam corrupti repudiandae libero aperiam dolore at magni excepturi harum quod id magnam voluptatem consequuntur quas? A voluptates harum, sit veritatis libero cumque quos corporis totam, accusamus dolores ad eaque? Porro neque laudantium eaque, consequuntur dignissimos animi itaque commodi repellat pariatur non ut repudiandae nihil provident. Laborum exercitationem totam maiores, laudantium quibusdam debitis itaque deleniti, id, excepturi ab eum!</div>
+    </div>
+    <div class="footer shadow">
+        <p class="info">Copyright © 菜鸟教程 2023 备案号：<a href="#">闽ICP备15012807号-1</a></p>
+    </div>
+    <div class="top"><a href="#"></a></div>
+</body>
+</html>
